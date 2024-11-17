@@ -1,10 +1,16 @@
 # cintel-04-local
 ## Author: Arnold Atchoe
 ## Date: 11/15/2024
+
 ## Project Description
-    The goal of this project is to create an interactive dashboard app that allows users to analyze and visualize the palmer penguins dataset. This project made use of shiny for python and GitHub pages to achieve its goal.
+    The goal of this project is to create an interactive dashboard app that allows users to analyze and 
+    visualize the **Palmer Penguins** dataset. This project made use of shiny for python and GitHub 
+    pages to achieve its goal.
+
 ## Data Description
-   Dataset contains facts about three species of penguins observed on three island in Palmer Archipelago, Antarctica. The data has been made available by Dr. Kristen Gorman and the Palmer Station, Antarctica LTER, a member of the Long Term Ecological Research Network.
+   Dataset contains facts about three species of penguins observed on three island in **Palmer Archipelago, 
+   Antarctica**. The data has been made available by Dr. Kristen Gorman and the Palmer Station, Antarctica LTER, 
+   a member of the Long Term Ecological Research Network.
 
     Column names for the penguins dataset include:
 
@@ -18,7 +24,9 @@
 
 ## Data Cleaning and transformation
     Dataset has some missing values. To ensure accurate analysis, rows with at least one column of missing data is deleted.
+
 ## Project Execution
+
 ### Prep Development Environment
     Determine and prepare the tools require to execute project successfully.
 
@@ -27,22 +35,23 @@
     3. Install VS Code as a Code editor.
     4. Download and enable python and shiny extension for VS Code.
     5.Create and activate python project virtual environment(.venv). Virtual enivroment keep
-    project dependencies mutually exclusive.
+    project dependencies exclusive.
     ```py -m venv .venv```
-    ```.venv\Scripts\activate```
+```.venv\Scripts\activate```
     6. Install project dependencies and libraries.
-    ```py -m pip install -r requirements.txt```
+```py -m pip install -r requirements.txt```
     The requirements.txt file contains a list of all projedct dependencies to allow for easy installation.
 
     Notes(In terminal):
     1.  Configure git with username and email used in github with the following lines of code;
-    ```git config --global user.name "Your Name"```
-    ```git config --global user.email "youremail@example.com"```
+```git config --global user.name "Your Name"```
+```git config --global user.email "youremail@example.com"```
     2.  Check python version, Git version and confriguration with following lines of code;
-    ```py --version```
-    ```git --version```
-    ```git config user.name```
-    ```git config user.email```
+ ```py --version```
+```git --version```
+ ```git config user.name```
+ ```git config user.email```
+
 ### Run App
     Launch app in web browser by running ```shiny run --reload --launch-browser penguins/app.py``` in terminal. Terminal becomes occupied after running this code hence another terminal must be used for other tasks.
 ### Build App to Docs folder and Test locally.
