@@ -4,7 +4,7 @@
 
 ## Project Description
     The goal of this project is to create an interactive dashboard app that allows users to analyze and 
-    visualize the **Palmer Penguins** dataset. This project made use of shiny for python and GitHub 
+    visualize the ** Palmer Penguins ** dataset. This project made use of shiny for python and GitHub 
     pages to achieve its goal.
 
 ## Data Description
@@ -14,13 +14,13 @@
 
     Column names for the penguins dataset include:
 
-    **species**: penguin species (Chinstrap, Adelie, or Gentoo)
-    **island**: island name (Dream, Torgersen, or Biscoe) in the Palmer Archipelago
-    **bill_length_mm**: length of the bill in millimeters
-    **bill_depth_mm**: depth of the bill in millimeters
-    **flipper_length_mm**: length of the flipper in millimeters
-    **body_mass_g**: body mass in grams
-    **sex**: MALE or FEMALE
+    ** species **: penguin species (Chinstrap, Adelie, or Gentoo)
+    ** island **: island name (Dream, Torgersen, or Biscoe) in the Palmer Archipelago
+    ** bill_length_mm **: length of the bill in millimeters
+    ** bill_depth_mm **: depth of the bill in millimeters
+    ** flipper_length_mm **: length of the flipper in millimeters
+    ** body_mass_g **: body mass in grams
+    ** sex **: MALE or FEMALE
 
 ## Data Cleaning and transformation
     Dataset has some missing values. To ensure accurate analysis, rows with at least one column of missing data 
